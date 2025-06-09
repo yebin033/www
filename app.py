@@ -3,7 +3,8 @@ import numpy as np
 
 st.title("영화 흥행 수익 예측 앱 (scikit-learn 없이)")
 
-coef = np.array([3.0, 1.5, 10.0, 8.0, 5.0, 7.0, 6.0, 4.0])
+# coef 7개로 수정 (budget, release_year, 5장르)
+coef = np.array([3.0, 1.5, 10.0, 8.0, 5.0, 7.0, 6.0])
 intercept = 1_000_000
 
 budget = st.number_input("영화 예산 (달러)", min_value=0, value=10000000)
