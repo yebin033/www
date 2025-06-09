@@ -1,4 +1,4 @@
-iimport streamlit as st
+import streamlit as st
 import numpy as np
 
 st.title("영화 흥행 수익 예측 앱 (scikit-learn 없이)")
